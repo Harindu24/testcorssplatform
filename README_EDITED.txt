@@ -10,7 +10,11 @@ Open the extracted file --> open CMakeLists.txt :-
 Create a folder and name it as "build" .
 Open the build folder --> right click and select Option "Open Terminal/CMD/Powershell here"
 
-Then run these commands: -
+Then run these commands: (Mac os and Linux) -
     " cmake .. "
     " make "
+Then run these commands: (Windows) -
+    " cmake --build ."
+Then open the application in the build folder.
+
 Look inside the build folder replaced_name_in_fourth_step.exe / replaced_name_in_fourth_step and double click it .
